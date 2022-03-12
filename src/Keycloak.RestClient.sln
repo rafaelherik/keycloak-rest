@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keycloak.RestClient", "Keycloak.RestClient\Keycloak.RestClient.csproj", "{35BEE295-36C1-405F-A9AA-1DA52950E135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keycloak.RestClient.Tests", "Keycloak.RestClient.Tests\Keycloak.RestClient.Tests.csproj", "{D270B448-269F-4DED-BDD1-7180C4628B33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35BEE295-36C1-405F-A9AA-1DA52950E135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BEE295-36C1-405F-A9AA-1DA52950E135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BEE295-36C1-405F-A9AA-1DA52950E135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BEE295-36C1-405F-A9AA-1DA52950E135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D270B448-269F-4DED-BDD1-7180C4628B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D270B448-269F-4DED-BDD1-7180C4628B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D270B448-269F-4DED-BDD1-7180C4628B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D270B448-269F-4DED-BDD1-7180C4628B33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E143609D-0C41-4D85-B720-30095D3CEA00}
+	EndGlobalSection
+EndGlobal
